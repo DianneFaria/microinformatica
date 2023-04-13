@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="{{url_for('static', filename='/css/style.css')}}"
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div class="linha_superior"></div>
+
+    <div class="container">
+        <img src="{{url_for('static', filename='/imagens/logo.png')}}">
+
+        <div class="menu">
+            <a href="/">Home</a> |
+            <a href="/quemsomos">Quem somos</a> |
+            <a href="/contato">Contato</a>
+        </div>
+    </div>
+
+    {% block conteudo %}
+
+    {% endblock %}
+
+    <div class="nota">Todos os direitos reservados</div>
+    
+</body>
+</html>
