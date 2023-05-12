@@ -66,3 +66,32 @@ a {
     height: 3px;
 }
 
+th{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    background-color: rgb(240,248,255);
+    border:1px solid black;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    border:1px solid black;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+.cont_tabela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+

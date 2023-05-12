@@ -8,16 +8,19 @@
     
     <hr width="960" size="2" color="#DCDCDC">
 
-    <div class="texto">Seu email:</div> 
-    <input type="text" name="email" size="20" placeholder="Digite sua mensagem"><p>
 
-    <div class="texto">Assunto:</div>
-    <input type="text" name="Assunto" size="20" placeholder="Digite sua mensagem"><p>
+    <form method="post" action="/contato">
 
-    <div class="texto">Descrição:</div>
-    <textarea placeholder="Digite sua mensagem"></textarea><p>
+        Seu e-mail: <br>
+        <input type="email" name="email" required><br>
 
-    <button type="submit">Enviar</button>
+        Assunto: <br>
+        <input type="text" name="assunto" required><br>
 
+        Descrição : <br>
+        <input type="text" name="descricao" required><br>
+
+        <input type="submit">
+    </form>
     {% endblock %}
 
